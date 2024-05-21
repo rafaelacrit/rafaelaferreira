@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Formação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        
+        .education {
+            margin-top: 20px;
+        }
+        
+        .education h2 {
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .education-item {
+            margin-bottom: 20px;
+        }
+        
+        .education-item h3 {
+            margin: 0;
+            color: black;
+        }
+        
+        .education-item p {
+            margin: 5px 0;
+        }
+        
+        .back-to-top {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .back-to-top button {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .back-to-top button:hover {
+            background-color: black;
+        }
+    </style>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Minha Formação</h1>
+        <div class="education">
+            <h2>Educação</h2>
+            <div class="education-item">
+                <h3>Graduação em Administração </h3>
+                <p><strong>Instituição:</strong> Universidade Federal de Uberlândia</p>
+                <p><strong>Ano de Conclusão:</strong> 2019</p>
+            </div>
+            <div class="education-item">
+                <h3>Graduação em Sistemas de Informação </h3>
+                <p><strong>Instituição:</strong> Universidade Federal de Uberlândia</p>
+                <p><strong>Ano de Interrupção:</strong> 2023</p>
+
+            </div>
+            <div class="education-item">
+                <h3>Tecnologo em Ciência de Dados</h3>
+                <p><strong>Instituição:</strong> UNINTER </p>
+                <p><strong>Ano de Conclusão:</strong> Cursando </p>
+
+            </div>
+            <div class="education-item">
+                <h3>MBA em Data Science e Analytics</h3>
+                <p><strong>Instituição:</strong> USP/ESALQ</p>
+                <p><strong>Ano de Conclusão:</strong> Cursando</p>
+
+            </div>
+        </div>
+        <div class="back-to-top">
+            <button onclick="scrollToTop()">Voltar ao Início
+                <a href="inicio.html"></a>         
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
